@@ -1,0 +1,333 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-top: 95px;
+  margin-left: 166px;
+  margin-right: 125px;
+
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #486958;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  width: 271px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
+  font: inherit;
+  font-weight: bold;
+  color: white;
+
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  background-color: #58a9a5;
+}
+
+.button:hover {
+  background-color: #63ddd7;
+}
+
+.site-navigation {
+  font-size: 25px;
+  line-height: 37px;
+
+  list-style: none;
+}
+
+.site-navigation-link {
+  color: #404242;
+}
+
+.site-navigation-link:hover {
+  color: #63ddd7;
+}
+
+.site-navigation-link:visited {
+  color: #94a8a7;
+}
+
+.site-navigation-link-active {
+  color: #58a9a5;
+  border-bottom: 4px solid #fec62d;
+  font-weight: bold;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.entry-overview p {
+  color: #404242;
+}
+
+.entry-overview h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+
+  color: #1c2323;
+}
+
+.entry-overview-link:hover {
+  color: #63ddd7;
+  text-decoration-line: underline;
+}
+
+.workflow-overview h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  text-align: center;
+
+  color: #1c2323;
+}
+
+.workflow-overview-top-text {
+  text-align: center;
+
+  color: #404242;
+}
+
+.workflow-overview-middle-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #486958;
+}
+
+.workflow-overview a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #486958;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.workflow-overview h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #1c2323;
+}
+.workflow-overview-bottom-text {
+  font-weight: 500;
+
+  color: #486958;
+}
+
+.projects-overview h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: #1c2323;
+}
+
+.projects-overview-title {
+  font-size: 30px;
+  line-height: 45px;
+
+  text-align: center;
+
+  color: #404242;
+}
+
+.projects-list {
+  list-style: none;
+}
+.projects-list h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #58a9a5;
+}
+.projects-list p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #486958;
+}
+
+.projects-progress-list {
+  list-style: none;
+}
+
+.projects-progress-list p {
+  font-weight: 600;
+
+  color: #58a9a5;
+}
+
+.projects-progress-list p:hover,
+.projects-progress-list p:hover b {
+  color: #1f736f;
+}
+
+.projects-progress-list p:before {
+  content: url("../images/icons/logo-pic.svg");
+}
+
+.projects-progress-list p:hover:before {
+  content: url("../images/icons/logo-pic-hovered.svg");
+}
+
+.projects-progress-list b {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+
+  color: #58a9a5;
+}
+
+.projects-list-quote {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+
+  color: #486958;
+}
+
+.projects-list-quote-author {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+
+  color: #58a9a5;
+}
+
+.projects-list-quote-author:before {
+  font-style: italic;
+  content: "- ";
+}
+
+.appointment h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+
+  color: #1c2323;
+}
+
+.appointment p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+
+  color: #486958;
+}
+
+.appointment-form {
+  border: 2px solid black;
+  padding: 57px 54px 54px 35px;
+}
+
+.appointment-form input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+
+  border-bottom: 1px solid #000000;
+}
+
+.appointment-form input:focus {
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(9, 37, 36);
+  outline: none;
+}
+
+.appointment-form input::placeholder {
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  opacity: 1;
+
+  color: #486958;
+}
+
+.main-footer h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+
+  text-transform: uppercase;
+
+  color: #156963;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list p {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #333333;
+}
+
+.contact-list a {
+  font-family: "Work Sans", Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 34px;
+
+  text-decoration-line: underline;
+
+  color: #4f4f4f;
+}
+
+.contact-list a:hover {
+  color: #63ddd7;
+}
+
+.contact-list a:visited {
+  color: #94a8a7;
+}
